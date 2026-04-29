@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>It’s Hard to Represent Mulu Haile-Johnson This Way</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f2f2f2;
+    color: #111;
+}
+
+.container {
+    max-width: 780px;
+    margin: 60px auto;
+    background: #fff;
+    padding-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.hero {
+    text-align: center;
+    padding: 30px 30px 10px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 650px;
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 20px 30px 10px;
+}
+
+.author {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 0 40px;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+p {
+    margin-bottom: 26px;
+}
+
+/* subtle accent */
+p:first-of-type::first-letter {
+    font-size: 52px;
+    font-weight: bold;
+    float: left;
+    line-height: 0.9;
+    margin-right: 10px;
+    margin-top: 6px;
+    color: #c0392b;
+}
+
+/* flashing text */
+.flash {
+    color: #555;
+    transition: opacity 0.25s ease;
+}
+
+.flash.hidden {
+    opacity: 0;
+}
+
+/* quote styling */
+.quote {
+    font-style: italic;
+    border-left: 3px solid #c0392b;
+    padding-left: 14px;
+    margin: 20px 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <img src=“mulu”.jpg alt="Mulu Haile-Johnson">
+    </div>
+
+    <div class="title">
+        It’s Hard to Represent Mulu Haile-Johnson This Way
+    </div>
+
+    <div class="author">
+        By Sydney Johnson
+    </div>
+
+    <div class="content" id="article"></div>
+
+</div>
+
+<script>
+const rawText = `It’s 53 degrees in London when she picks up the phone. About 40 degrees colder than she’s used to, having spend most of her life in California with a brief stint in Arizona for graduate school. “I wasn’t confident about going into the job market with just a math degree. [pause].” Tech industry worker, mom, and sister Mulu Haile-Johnson tells me. She was gracious enough to give up some of her time while visiting her brother overseas. “I got a [uh] scholarship to go to Arizona, so I went. ((Well, I mean, you know,)) I studied business. Every break I’d drive back to LA alone in my, [pause] it must’ve been the Accord. I hated those roadtrips. ((Wait. Give me one second)) [stall]. Okay, where was I?”
+
+Mulu was born in Ethiopia, just before the country’s coup in the early 1970s. When the fighting broke out, she was five years old and (probably unknowingly) celebrating her dad’s graduation from Northeastern. She, her grandmother who she “just adored,” and her cousin who was “functionally much more like a brother,” stayed in Boston while the rest of her family escaped the country. “I don’t remember much ((from that time)). ((You know my memory is bad)). [Pause] I think I liked Boston though, but I like LA better.” After a couple of years in the Northeast, her father moved to Los Angeles with his new wife and the rest of the family: her cousin and grandma included. “I can’t stand the cold((. I can’t stand)) [or] weather in general.” When I ask if she thinks she could live anywhere else, she gives a resounding no. “All of my family is here. [Like], I like the pace of the city. My work is here. I haven’t lived anywhere else for what feels like a century.”
+
+She has a job only people working in the tech industry would know about. A Cloud Sales Agent. “I’ve explained this so many times. Basically [pause], I facilitate conversations between my company’s clients and our engineers. I’m [like] the middle-man ((for their communication)).” When I ask if she understands all of the technical bits behind the engineering, she says this, “God no. But that’s not my job. I[‘m the] ((only have to be the, let’s say,)) connective tissue between them.”
+
+When I ask her if she enjoys the job, she looks at me kind of funny. “It’s let me be there for my kids. So I wouldn’t have it any other way. But of course, it’s not the most exciting work, as you can [uh] imagine. I’m on calls all day, [like], genuinely all day. You know,” she takes a second to chuckle, “my optometrist ((had)) said ((that at one point or another,)) my prescription would start to stabilize, and it has, but I’m secretly afraid all the time on the computer is going to change that. We always talk about ((that, don’t we? The importance of)) blue light glasses.” She’s referencing the fact that I’ve inherited my poor vision from her and my dad. I redirect our conversation back to her, my subject.
+
+At ASU, Mulu got a degree in business. Her passion for it is evident when we talk about her dessert scene ventures. So it’s easy to goad her into speaking about a side project she’s been pursuing recently: a cookie business. “It started out with pies. I was trying to help my cousin with her business((,)) and we ((just)) started to share the load. That didn’t last long [laughs.]” Why? “((Oh,)) we just had very different ways of going about things. ((When I told her)) I was only really interested in ((pursuing it if we could do)) bulk orders—not the one offs she had going, which I’m really happy for her about—we pursued it until it ((just kind of)) sputtered out. I’m making cookies now.” Very good cookies at that. “Thank you, [you know], I sell them your father’s football games. People seem to really like them, as I know you know.” Case in point: at a Hanukkah party I attended at the invitation of a close childhood friend this past winter, a restaurant consultation professional told me that her cookies were easily worth five dollars. That price puts them in the range of what one might call a gourmet cookie. “I remember you telling me that. But [pause] you never connected me with him. I’m confident in the quality [of my cookies]—they’re better than most we’ve tried around the city—but I need to figure out how to scale up.”
+
+Mulu doesn’t have a sweet tooth but is a foodie. She likes quality, can cook and bake, so there’s no settling for boring, bad, or mediocre. She likes to dine, dessert, and snack around LA, and there are more cookie shops that you might imagine. “[Yeah,] that one we tried in Beverley Hills was a bust. I like the one on Adams, but you weren’t as big a fan.” It’s true. She attempts what I would consider placation for my disagreement, “((I think)) I just liked all the flavors. I’m always going to do a chocolate chip, a chocolate chip walnut[,](( I’ll throw)) an oatmeal raisin ((in there)). ((What)) I want ((is)) to see the earl grays of the world, the seasonal flavors.” She tells me she also peruses Instagram for inspiration. “That cornbread cookie,” incredible, by the way, “((the idea for it)) came from instagram. That jam and butter one I sent you, too. Although I haven’t made it yet.”
+
+She tells she’s getting hungry so we veer off the subject. It’s getting late in London, I can tell by the now dim light of the living room. When I ask her if she has any topic she wants to close the interview on, her nephew crowds into the FaceTime frame, his raucous energy palpable through the screen. My mom looks on him fondly. “Not really. It’s hard to try and represent yourself in this way.” I can sense a little timidness in her voice. I want to do her personhood justice, to end on a note of pride. It’s cliche, but I ask her about being a mom. Perhaps because with everything else we’d talked about, she’d just needed to recount (her immigration) or had some formal training with (business management), she didn’t stumble much over her words or take too long at all to respond. But motherhood, even just from the way her cadence changed, slowed, is clearly a different beast, one she is meticulous and thorough about. “I’ve never taken for granted the fact that I’ve gotten to spend so much of my time with you and your brother as you both grew and grow up. My parents… [well,] [you know] what the story with my parents was. My grandmother was the sweetest person in the world but she couldn’t, because you probably just can’t, be my mom for me. So I did things very slowly when I decided to become a mom, ((and)) kind of late, and I think it turned out well. Raising you and your brother has been the joy of my life.”
+
+Her brother walks into the room, says goodnight. I think she takes this as a cue to quiet down for the night as well, because when she turns back to me she says goodnight and I love you, I’ll talk to you soon. I say goodnight and I love you back, then close my computer. It’s bright outside in Providence still.`;
+
+// process flashing spans + paragraphs
+function processText(text) {
+    return text
+        .replace(/\(\((.*?)\)\)/g, '<span class="flash">$1</span>')
+        .split("\n\n")
+        .map(p => `<p>${p}</p>`)
+        .join("");
+}
+
+document.getElementById("article").innerHTML = processText(rawText);
+
+// flash toggle
+setInterval(() => {
+    document.querySelectorAll('.flash').forEach(el => {
+        el.classList.toggle('hidden');
+    });
+}, 450);
+</script>
+
+</body>
+</html>
